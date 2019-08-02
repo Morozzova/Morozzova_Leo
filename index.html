@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
     <link rel="icon" href="icon.png">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -19,50 +17,40 @@
 
 <body>
     <header class="header">
-        <!-- старый слайдер
-       
-        <div class="single-slide">
-            <div>
-                <img class="slider-image" src="images/header_slider_2.jpg">
-            </div>
-            <div>
-                <img class="slider-image" src="images/header_slider_1.jpg">
-            </div>
-        </div>
-        -->
-        <section class="slider">
-
-            <div class="slider-image-2"></div>
-            <div class="slider-image-1"></div>
-
-        </section>
-        <div class="header_top_container">
-            <div class="header_top">
-                <div class="menu">
-                    <ul class="menu_list">
-                        <li class="menu_list-item--common"><a href="#" class="menu_list-link--common">Главная</a>
+        <div class="header-inner">
+                <nav class="main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Главная</a>
                         </li>
-                        <li class="menu_list-item--common"><a href="#" class="menu_list-link--common">О компании</a>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">О компании</a>
                         </li>
-                        <li class="menu_list-item--common"><a href="#" class="menu_list-link--common">Условия залога</a>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Условия залога</a>
                         </li>
-                        <li class="menu_list-item--common"><a href="#" class="menu_list-link--common">Витрина</a>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Витрина</a>
                         </li>
-                        <li class="menu_list-item--common"><a href="#" class="menu_list-link--common">Контакты</a>
+                        <li class="main-menu__item"><a href="#" class="main-menu__link">Контакты</a>
                         </li>
                     </ul>
+                </nav>
+                <div class="contacts-wrapper">
+                <ul class="contacts">
+                    <li class="contacts__mail">
+                        <a href="mailto:email@email" class="mail__link">emoy@mail.com</a>
+                    </li>
+                    <li class="contacts__phone">+7 910 456 56 78</li>
+                </ul>
                 </div>
-                <div class="contacts">
-                    <div class="contacts-mail">
-                        <a href="mailto:email@email" class="contacts-mail-mail">
-                            <img class="contacts-mail-icon" src="images/email.png">emoy@mail.com</a>
-                    </div>
-                    <div class="contacts-phone">
-                        <img class="contacts-phone-icon" src="images/phone.png"><span>+7 910 456 56 78</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>        
+    </header> 
+     <main class="main"> 
+     
+        <section class="slider">
+           
+            <div class="slider-image-2"></div>
+            <div class="slider-image-1"></div>
+           
+        </section>
+
         <div class="header_middle_container">
             <div class="header_middle">
                 <div class="header_middle-left">
@@ -80,8 +68,8 @@
             </div>
         </div>
 
-    </header>
-    <main class="main">
+
+
         <section class="advantages">
             <h1 class="advantages-h1">Почему выбирают наш ломбард</h1>
             <div class="advantages-line"></div>
@@ -252,10 +240,8 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <a href="#">
-                    <button class="catalogue-button">Смотреть все</button>
-                </a>
+            <div class="catalogue-button">
+                <a class="catalogue-link" href="#">Смотреть все</a>
             </div>
         </section>
 
