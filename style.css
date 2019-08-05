@@ -99,37 +99,45 @@ body {
 }
 /* слайдер анимация start */
 
-@keyframes disappearance {
+@-webkit-keyframes disappearance {
     0% {
         opacity: 1;
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     25% {
         opacity: 1;
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     50% {
         opacity: 0;
-        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
     }
     75% {
         opacity: 0;
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     100% {
         opacity: 1;
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
 }
 @keyframes grow {
     0% {
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     75% {
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     100% {
-        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
     }
 }
 /* слайдер анимация end */
@@ -149,7 +157,8 @@ body {
     left: 0;
     background: url("images/slider-image-1.jpg") no-repeat;
     background-size: cover;
-    animation: disappearance 15s linear infinite;
+    -webkit-animation: disappearance 15s linear infinite;
+            animation: disappearance 15s linear infinite;
     overflow: hidden;
 }
 .slider-image-2 {
@@ -157,7 +166,8 @@ body {
     height: 880px;
     background: url("images/slider-image-2.jpg") no-repeat;
     background-size: cover;
-    animation: grow 15s linear infinite;
+    -webkit-animation: grow 15s linear infinite;
+            animation: grow 15s linear infinite;
     overflow: hidden;
 }
 /* slider-end */
@@ -207,17 +217,30 @@ body {
 }
 /* бегущая строка анимация start */
 
-@keyframes marquee {
+@-webkit-keyframes marquee {
     0% {
-        transform: translate(100%, 0);
+        -webkit-transform: translate(100%, 0);
+                transform: translate(100%, 0);
     }
     100% {
-        transform: translate(-100%, 0);
+        -webkit-transform: translate(-100%, 0);
+                transform: translate(-100%, 0);
+    }
+}
+@keyframes marquee {
+    0% {
+        -webkit-transform: translate(100%, 0);
+                transform: translate(100%, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+                transform: translate(-100%, 0);
     }
 }
 @media only screen and (max-width: 440px) {
     .marquee span {
-        animation: none;
+        -webkit-animation: none;
+                animation: none;
         padding-left: 0;
     }
 }
@@ -242,7 +265,8 @@ body {
     display: inline-block;
     width: 100%;
     text-indent: 0;
-    animation: marquee 8s linear infinite;
+    -webkit-animation: marquee 8s linear infinite;
+            animation: marquee 8s linear infinite;
 }
 .running-line__text_bold {
     font-weight: bold;
