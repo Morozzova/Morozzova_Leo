@@ -8,8 +8,8 @@ body {
     color: #000;
 }
 @font-face {
-    font-family: AGOpus;
-    src: url("fonts/agopus.ttf") format("truetype");
+    font-family: "AGOpus";
+    src: url("fonts/agopus.woff") format("truetype");
 }
 .header {
     position: absolute;
@@ -186,9 +186,10 @@ body {
     padding-right: 40px;
 }
 .poster__name {
-    font-family: "AGOpus", "Arial Black", sans-serif;
+    font-family: "AGOpus", sans-serif;
     font-size: 41.15px;
     width: 50%;
+    line-height: 1.2;
 }
 .poster__slogan {
     width: 50%;
@@ -639,14 +640,16 @@ body {
     height: 49px;
 }
 .footer__name {
-    font-family: "AGOpus", "Arial Black", sans-serif;
+    font-family: "AGOpus", sans-serif;
     font-size: 16.7px;
     margin-left: 10px;
     width: 80px;
+    line-height: 1.2;
 }
 .footer__phone {
     width: 150px;
     background: url("images/phone_footer.png") no-repeat;
+    background-position: 0 1px;
     font-size: 16px;
     margin-left: 50px;
     padding-left: 20px;
