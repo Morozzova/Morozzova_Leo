@@ -173,17 +173,14 @@
                     <p class="catalogue__text catalogue__item_new">Новые от 15 345 руб.</p>
                 </li>
             </ul>
-
             <div class="catalogue__button">
                 <a class="catalogue__link" href="#">Смотреть все</a>
             </div>
-
         </section>
 
-           <div class="service-location-wrapper">
-           <div class="service__margin"></div>
+        <div class="service-location-wrapper">
+            <div class="service__margin"></div>
             <section class="service">
-               
                 <h2 class="service__title">Принимаем в залог и скупку</h2>
                 <div class="service__title-underline"></div>
                 <ul class="service__list">
@@ -205,16 +202,15 @@
                 </ul>
             </section>
             <section class="location">
-               <header class="location__header">
-                <h2 class="location__title">Мы находимся</h2>
-                <div class="location__title-underline"></div>
+                <header class="location__header">
+                    <h2 class="location__title">Мы находимся</h2>
+                    <div class="location__title-underline"></div>
                 </header>
                 <div class="map-container">
-
                     <div class="map" id="map"></div>
                 </div>
             </section>
-</div>
+        </div>
     </main>
 
     <footer class="footer">
@@ -243,7 +239,9 @@
                 zoom: 12,
 
                 controls: []
-            }, {suppressMapOpenBlock: true});
+            }, {
+                suppressMapOpenBlock: true
+            });
 
 
             var myGeoObjects = [];
