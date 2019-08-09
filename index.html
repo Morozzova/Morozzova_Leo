@@ -54,7 +54,7 @@
 
         <section class="poster">
             <div class="poster__logo">
-                <img class="poster__image" src="images/logo_big.png" width="151" height="160" alt="Логотип">
+                <img class="poster__image" src="images/logo.png" width="151" height="160" alt="Логотип">
                 <p class="poster__name">Ломбард ЛЕВ</p>
             </div>
             <div class="poster__slogan">
@@ -180,44 +180,47 @@
 
         </section>
 
-        <section class="location">
-            <header class="location__header">
+           <div class="service-location-wrapper">
+           <div class="service__margin"></div>
+            <section class="service">
+               
+                <h2 class="service__title">Принимаем в залог и скупку</h2>
+                <div class="service__title-underline"></div>
+                <ul class="service__list">
+                    <li class="service__item service__item_jewellery">
+                        <p class="service__text">ювелирные изделия из золота и серебра</p>
+                    </li>
+                    <li class="service__item service__item_tech">
+                        <p class="service__text">аудио, видео, фото, бытовую технику</p>
+                    </li>
+                    <li class="service__item service__item_phones">
+                        <p class="service__text">сотовые телефоны, смартфоны и планшеты</p>
+                    </li>
+                    <li class="service__item service__item_computers">
+                        <p class="service__text">компьютерную технику, ноутбуки, моноблоки, мониторы, системные блоки</p>
+                    </li>
+                    <li class="service__item service__item_tools">
+                        <p class="service__text">строительные инструменты</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="location">
+               <header class="location__header">
                 <h2 class="location__title">Мы находимся</h2>
                 <div class="location__title-underline"></div>
-            </header>
-            <section class="location__main">
-                <section class="service">
-                    <h3 class="service__title">Принимаем в залог и скупку</h3>
-                    <div class="service__title-underline"></div>
-                    <ul class="service__list">
-                        <li class="service__item service__item_jewellery">
-                            <p class="service__text">ювелирные изделия из золота и серебра</p>
-                        </li>
-                        <li class="service__item service__item_tech">
-                            <p class="service__text">аудио, видео, фото,бытовую технику</p>
-                        </li>
-                        <li class="service__item service__item_phones">
-                            <p class="service__text">сотовые телефоны,смартфоны и планшеты</p>
-                        </li>
-                        <li class="service__item service__item_computers">
-                            <p class="service__text">компьютерную технику, ноутбуки, моноблоки, мониторы, системные блоки</p>
-                        </li>
-                        <li class="service__item service__item_tools">
-                            <p class="service__text">строительные инструменты</p>
-                        </li>
-                    </ul>
-                </section>
-                <section class="map-container">
+                </header>
+                <div class="map-container">
+
                     <div class="map" id="map"></div>
-                </section>
+                </div>
             </section>
-        </section>
+</div>
     </main>
 
     <footer class="footer">
         <div class="footer-inner">
             <section class="footer__contacts">
-                <img class="footer__logo" src="images/logo_footer.png" width="46" height="49" alt="Логотип">
+                <img class="footer__logo" src="images/logo.png" width="46" height="49" alt="Логотип">
                 <p class="footer__name">Ломбард Лев</p>
                 <p class="footer__phone">+7 910 456 56 78</p>
             </section>
@@ -238,8 +241,9 @@
             var myMap = new ymaps.Map("map", {
                 center: [56.314682, 43.950417],
                 zoom: 12,
+
                 controls: []
-            });
+            }, {suppressMapOpenBlock: true});
 
 
             var myGeoObjects = [];
