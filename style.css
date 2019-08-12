@@ -784,7 +784,6 @@ body {
         margin-left: 0;
         margin-right: 20px;
         margin-top: 80px;
-        font-size: 22px;
     }
     .catalogue__list {
         width: 854px;
@@ -802,11 +801,6 @@ body {
     .footer-inner {
         max-width: 100%;
         margin: 0 98px;
-    }
-}
-@media screen and (max-width: 1723px) {
-    .advantages__list {
-        max-width: 1723px;
     }
 }
 @media screen and (max-width: 1535px) {
@@ -827,6 +821,7 @@ body {
     .service__title {
         margin-top: 0px;
     }
+
     .service__item {
         width: 100%;
     }
@@ -841,12 +836,14 @@ body {
     .map-container {
         position: relative;
         width: 100%;
+        height: 500px;
         top: 0;
         left: 0;
     }
     .map {
         margin-left: 0;
         width: 100%;
+        height: 500px;
     }
 }
 @media screen and (max-width: 1365px) {
@@ -879,8 +876,6 @@ body {
     .advantages__item {
         width: 50%;
         min-height: 80px;
-    }
-    .advantages__item {
         margin-bottom: 60px;
         background-position: 0 5px;
     }
@@ -888,7 +883,6 @@ body {
         width: 82px;
     }
     .advantages__text {
-        font-size: 24px;
         margin-top: 0;
         margin-left: 90px;
     }
