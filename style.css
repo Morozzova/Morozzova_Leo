@@ -8,8 +8,11 @@ body {
     color: #000;
 }
 @font-face {
-    font-family: "AGOpus";
-    src: url("fonts/agopus.woff") format("truetype");
+    font-family: "AGOpus", "Arial", sans-serif;
+    src: url("fonts/agopus.woff2") format("woff2"),
+	url("fonts/agopus.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
 }
 .visually-hidden {
     position: absolute;
@@ -239,8 +242,9 @@ body {
     padding-right: 40px;
 }
 .poster__name {
-    font-family: "AGOpus", sans-serif;
+    font-family: "AGOpus", "Arial", sans-serif;
     font-size: 41.15px;
+    font-weight: bold;
     width: 50%;
     line-height: 1.2;
 }
@@ -776,8 +780,9 @@ body {
     height: 49px;
 }
 .footer__name {
-    font-family: "AGOpus", sans-serif;
+    font-family: "AGOpus", "Arial", sans-serif;
     font-size: 16.7px;
+    font-weight: bold;
     margin-left: 10px;
     width: 80px;
     line-height: 1.2;
