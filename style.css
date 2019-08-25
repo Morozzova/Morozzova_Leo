@@ -948,6 +948,7 @@ body {
     .service__item_computers {
         margin-right: 300px;
         margin-left: 300px;
+        padding-bottom: 32px;
     }
     .service__item_jewellery {
         order: 1;
@@ -1057,6 +1058,7 @@ body {
     .service__item_computers {
         margin-right: 0;
         margin-left: 0;
+        padding-bottom: 0;
     }
     .service__text {
         margin-top: 0px;
