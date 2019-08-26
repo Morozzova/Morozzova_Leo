@@ -9,7 +9,8 @@ body {
 }
 @font-face {
     font-family: "AGOpus", "Arial", sans-serif;
-    src: url("fonts/agopus.woff2") format("woff2"), url("fonts/agopus.woff") format("woff");
+    src: url("fonts/agopus.ttf") format("truetype"),
+	    url("fonts/agopus.woff2") format("woff2"), url("fonts/agopus.woff") format("woff");
     font-weight: bold;
     font-style: normal;
 }

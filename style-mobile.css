@@ -1,23 +1,7 @@
-body {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    background: #ffffff;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    color: #000;
-}
+
 @font-face {
     font-family: "AGOpus", "Arial", sans-serif;
     src: url("fonts/agopus.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
-}
-.slider {
-    background-image: url(images/slider-image-1.jpg);
-    background-size: cover;
-}
-.slider-image-1,
-.slider-image-2 {
-	display: none;
 }
