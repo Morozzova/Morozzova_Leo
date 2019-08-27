@@ -379,6 +379,14 @@ body {
     background-position: 50% 5px;
     width: 82px;
     height: 82px;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.advantages__item:hover::before {
+    -webkit-transform: rotate(540deg);
+        -ms-transform: rotate(540deg);
+            transform: rotate(540deg);
 }
 .advantages__item_monitor::before {
     background-image: url("images/advantages_monitor.png");
