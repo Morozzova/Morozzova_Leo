@@ -790,6 +790,11 @@ body {
     max-width: 1724px;
     margin: 0 auto;
 }
+.footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
 .footer__logo {
     padding-top: 10px;
     width: 46px;
@@ -1568,15 +1573,6 @@ body {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-    }
-    .footer-container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
     }
     .footer__logo {
         padding-top: 20px;
