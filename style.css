@@ -1466,6 +1466,7 @@ body {
     .poster__image {
         padding-left: 10px;
         padding-right: 5px;
+        padding-top: 20px;
     }
     .running-line {
         margin-top: 50px;
