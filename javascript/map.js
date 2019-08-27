@@ -27,9 +27,8 @@ ymaps.ready(init);
                 balloonLayout: "default#imageWithContent",
                 balloonPanelMaxMapArea: 0,
                 hideIconOnBalloonOpen: false,
-                balloonOffset: [10, 10],
-                balloonImageSize: [0, 0],
-	       mapAutoPan: true
+                balloonOffset: [0, 0],
+                balloonImageSize: [0, 0]
             });
 
             // Метка 2 Мочалова
@@ -43,7 +42,7 @@ ymaps.ready(init);
                 balloonLayout: "default#imageWithContent",
                 balloonPanelMaxMapArea: 0,
                 hideIconOnBalloonOpen: false,
-                balloonOffset: [10, 10],
+                balloonOffset: [0, 0],
                 balloonImageSize: [0, 0]
             });
             // Метка 3 Коминтерна
@@ -57,7 +56,7 @@ ymaps.ready(init);
                 balloonLayout: "default#imageWithContent",
                 balloonPanelMaxMapArea: 0,
                 hideIconOnBalloonOpen: false,
-                balloonOffset: [10, 10],
+                balloonOffset: [0, 0],
                 balloonImageSize: [0, 0]
             });
             // Метка 4 Гордеевская
@@ -71,7 +70,7 @@ ymaps.ready(init);
                 balloonLayout: "default#imageWithContent",
                 balloonPanelMaxMapArea: 0,
                 hideIconOnBalloonOpen: false,
-                balloonOffset: [10, 10],
+                balloonOffset: [0, 0],
                 balloonImageSize: [0, 0]
             });
             // Метка 5 Ленина
@@ -85,7 +84,7 @@ ymaps.ready(init);
                 balloonLayout: "default#imageWithContent",
                 balloonPanelMaxMapArea: 0,
                 hideIconOnBalloonOpen: false,
-                balloonOffset: [10, 10],
+                balloonOffset: [0, 0],
                 balloonImageSize: [0, 0]
             });
             // Метка 6 Ванеева
@@ -99,7 +98,7 @@ ymaps.ready(init);
                 balloonLayout: "default#imageWithContent",
                 balloonPanelMaxMapArea: 0,
                 hideIconOnBalloonOpen: false,
-                balloonOffset: [10, 10],
+                balloonOffset: [0, 0],
                 balloonImageSize: [0, 0]
             });
             // Метка 7 Ивлиева
@@ -113,7 +112,7 @@ ymaps.ready(init);
                 balloonLayout: "default#imageWithContent",
                 balloonPanelMaxMapArea: 0,
                 hideIconOnBalloonOpen: false,
-                balloonOffset: [10, 10],
+                balloonOffset: [0, 0],
                 balloonImageSize: [0, 0]
             });
 
