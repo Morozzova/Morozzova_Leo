@@ -681,6 +681,14 @@ body {
     background-position: 50% 5px;
     width: 66px;
     height: 68px;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;    
+}
+.service__item:hover::before {
+    -webkit-transform: rotate(540deg);
+        -ms-transform: rotate(540deg);
+            transform: rotate(540deg);
 }
 .service__item_jewellery::before {
     background-image: url("images/service_jewellery.png");
